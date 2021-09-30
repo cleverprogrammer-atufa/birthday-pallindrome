@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-weight: 500;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Lato', sans-serif;
     --primary: #b668eb;
     --light: #fff;
 }
@@ -17,7 +17,7 @@
     align-items: center;
 }
 header {
-    width: 100%;
+    width: 50%;
     min-height: 150px;
     background-color: var(--primary);
     display: flex;
