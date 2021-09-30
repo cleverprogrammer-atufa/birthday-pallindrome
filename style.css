@@ -80,47 +80,7 @@ header h1 {
     opacity: 0;
     transition: opacity 0.4s;
 }
-footer {
-    width: 100%;
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 10px;
-}
-footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 5px;
-    background-color: var(--primary);
-    transform: scale(0);
-    transition: transform 0.3s;
-}
-footer:hover::before {
-    transform: scale(1);
-    transform-origin: center;
-}
-footer h2 {
-    font-weight: 700;
-    font-size: 1.6rem;
-    margin: 20px;
-}
-footer a {
-    cursor: pointer;
-    margin: 10px;
-}
-footer a img {
-    width: 40px;
-    margin: 10px;
-    transition: transform 0.2s;
-}
-footer a img:hover {
-    transform: scale(1.1);
-}
+
 .show {
     opacity: 1;
 }
